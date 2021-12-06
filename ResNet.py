@@ -1,7 +1,7 @@
 import torch.nn as nn
 import torch.nn.functional as F
 from torchvision import models
-
+from torchvision import transforms
 
 resnet_18 = models.resnet18(pretrained=True)
 vgg = models.vgg19(pretrained=True)
