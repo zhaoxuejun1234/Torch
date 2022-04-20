@@ -48,6 +48,6 @@ loss_function = nn.CrossEntropyLoss()
 op = torch.optim.SGD(model.parameters(),lr=1e-2,momentum=0.9)
 #SGD Adam
 cross_entropy = nn.CrossEntropyLoss()
-
+# This is a real try for git
 #执行循环优化过程
 #lr迭代策略
